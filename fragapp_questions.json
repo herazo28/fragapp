@@ -15,11 +15,15 @@
 				},
 				{
 					"question": "Which are the characteristics of structured data?",
-					"answer": "Data that is organized in a defined manner or schema"
+					"answer": "1. Easily aggregable, 2. Organize in rows and columns, 3. Has a consistent structure"
 				},
 				{
 					"question": "What is unstructured data?",
 					"answer": "Data that doesn't have a predefined structure or schema"
+				},
+				{
+					"question": "Which are the characteristics of unstructured data?",
+					"answer": "1. Not easily querable without preprocessing, 2. May come in various formats"
 				}
 			]
 		}

@@ -1,0 +1,26 @@
+{
+	"id": "AWS_MLA-C01",
+	"certName": "AWS MLA-C01",
+	"categories": [
+		"name": "Data ingestion and storage",
+		"questions": [
+			{
+				"question": "Which types of data exists?",
+				"answer": "Structure, unstructured and semistructured"
+			},
+			{
+				"question": "What is structured data?",
+				"answer": "Data that is organized in a defined manner or schema"
+			},
+			{
+				"question": "Which are the characteristics of structured data?",
+				"answer": "Data that is organized in a defined manner or schema"
+			},
+			{
+				"question": "What is unstructured data?",
+				"answer": "Data that doesn't have a predefined structure or schema"
+			}
+		]
+	]
+	
+}

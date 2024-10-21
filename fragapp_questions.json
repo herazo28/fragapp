@@ -24,6 +24,18 @@
 				{
 					"question": "Which are the characteristics of unstructured data?",
 					"answer": "1. Not easily querable without preprocessing, 2. May come in various formats"
+				},
+				{
+					"question": "What is semistructured data?",
+					"answer": "Data that is not as organized as structured data but has some level of structure in the form of tags, hierarchies or other patterns"
+				},
+				{
+					"question": "Which are the characteristics of semistructured data?",
+					"answer": "1. Elements might be tagged or categorized in some way, 2. More flexible than structured data but not as chaotic as unstructured data"
+				},
+				{
+					"question": "Which are the properties of data?",
+					"answer": "1. Volume, 2. Velocity, 3. Variety"
 				}
 			]
 		}

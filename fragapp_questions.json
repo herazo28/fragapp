@@ -48,7 +48,66 @@
 				{
 					"question": "What velocity refers to as a property of data?",
 					"answer": "Refers to the speed at which new data is generated, collected and processed"
+				},
+				{
+					"question": "Which are the characteristics of velocity data property?",
+					"answer": "1. High velocity requires real-time or near real-time processing capabilities, 2. Rapid ingestion and processing can be critical for certain applications"
 				}
+			]
+		},
+		{
+			"name": "AWS Managed AI Services",
+			"questions": [
+				{
+					"question": "What are AWS AI managed services?",
+					"answer": "Pre-trained ML Services for your use-case"
+				},
+				{
+					"question": "Which are the main characteristics of AWS AI managed services?",
+					"answer": "1. Responsiveness, 2. Availability, 3. Redundancy, 4. Regional coverage"
+				},
+				{
+					"question": "What can we say about performance of AWS AI managed services?",
+					"answer": "AWS has specialized CPU and GPU for specific use-cases and cost-savings"
+				},
+				{
+					"question": "Which price models does AWS AI managed services have?",
+					"answer": "1. Token-based pricing, 2. Provisioned throughput"
+				},
+				{
+					"question": "What is token-based pricing?",
+					"answer": "You pay for what you have used"
+				},
+				{
+					"question": "What is provisioned-throughput used for?",
+					"answer": "Predictable workloads, cost savings and predictable performance"
+				},
+				{
+					"question": "What is Amazon Comprehend?",
+					"answer": "Fully managed and serverless service for Natural Language Processing (NLP)"
+				},
+				{
+					"question": "What Amazon Comprehend uses?",
+					"answer": "It uses machine learning to find insights and relationships in text"
+				},
+				{
+					"question": "What Amazon Comprehend does?",
+					"answer": "1. Extract language of the text, 2. Extract key phrases, places, people, brands or events, 3. Understand how positive or negative the text is, 4. Analyze text using tokenization and parts of the speech, 5. Automatically organizes a collection of text files by topic"
+				},
+				{
+					"question": "What custom classification does within Amazon Comprehend?",
+					"answer": "It organize documents into categories (classes) that you define"
+				},
+				{
+					"question": "Which document types are supported by custom classification within Amazon Comprehend?",
+					"answer": "It support text, PDFs, Words and images"
+				},
+				{
+					"question": "Regard velocity, which are the analysis types of custom classification within Amazon Comprehend?",
+					"answer": "1. Real-time analysis, 2. Async analysis"
+				}
+				
+				
 			]
 		}
 	]

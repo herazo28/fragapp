@@ -105,9 +105,72 @@
 				{
 					"question": "Regard velocity, which are the analysis types of custom classification within Amazon Comprehend?",
 					"answer": "1. Real-time analysis, 2. Async analysis"
+				},
+				{
+					"question": "What is Named Entity Recognition (NER) in Amazon Comprehend?",
+					"answer": "Extracts predefined, general purpose entities like people, places, organizations, dates, and other standard categories from text"
+				},
+				{
+					"question": "What is Custom Entity Recognition in Amazon Comprehend?",
+					"answer": "Analyze text for specific terms, anything specific to your business"
+				},
+				{
+					"question": "What do you provide to train the Custom Entity Recognition model in Amazon Comprehend?",
+					"answer": "List of entities and documents that contain them"
+				},
+				{
+					"question": "Regard velocity, which are the analysis types of Custom Entity Recognition model in Amazon Comprehend?",
+					"answer": "Real-time or async analysis"
+				},
+				{
+					"question": "What is Amazon Translate?",
+					"answer": "Natural and accurate language translation"
+				},
+				{
+					"question": "What Amazon Translate allows?",
+					"answer": "It allows you to localize content (such as websites and applications) for international users, and to easily translate large volumes of text efficiently"
+				},
+				{
+					"question": "What is Amazon Transcribe?",
+					"answer": "Service to convert speech to text"
+				},
+				{
+					"question": "What Amazon Transcribe uses?",
+					"answer": "It uses a deep learning process called Automatic Speech Recognition (ASR) to convert speech to text quickly and accurately"
+				},
+				{
+					"question": "How can we improve the accuracy of Amazon Transcribe?",
+					"answer": "Through a custom vocabulary and custom language models"
+				},
+				{
+					"question": "What is Amazon Polly?",
+					"answer": "Turn text into lifelike speech using deep learning"
+				},
+				{
+					"question": "What Amazon Polly allows?",
+					"answer": "It allows you to create applications that talk"
+				},
+				{
+					"question": "Which are the advanced features of Amazon Polly?",
+					"answer": "1. Lexicons, 2. SSML (Speech Synthesis Markup Language), 3. Voice engine, 4. Speech mark"
+				},
+				{
+					"question": "What is Lexicons about in Amazon Polly?",
+					"answer": "Define how to read certain specific piece of text"
+				},
+				{
+					"question": "What is SSML (Speech Synthesis Markup Language) about in Amazon Polly?",
+					"answer": "Markup for your text to indicate how to pronounce it"
+				},
+				{
+					"question": "What is Voice engine about in Amazon Polly?",
+					"answer": "Generative, long-form, neural standard"
+				},
+				{
+					"question": "What is Speech mark about in Amazon Polly?",
+					"answer": "Encode where a sentence/word starts or ends in the audios, helpful for lip-syncing"
 				}
-				
-				
+
 			]
 		}
 	]

@@ -169,7 +169,48 @@
 				{
 					"question": "What is Speech mark about in Amazon Polly?",
 					"answer": "Encode where a sentence/word starts or ends in the audios, helpful for lip-syncing"
+				},
+				{
+					"question": "What Amazon Rekognition does?",
+					"answer": "Finds objects, people, text, scenes in images and videos using ML"
+				},
+				{
+					"question": "Regarding faces, what Amazon Rekognition can do?",
+					"answer": "Facial analysis and facial search to do user verification and people counting"
+				},
+				{
+					"question": "Against which faces are compared when Amazon Rekognition performs the facial search?",
+					"answer": "Celebrities or you can create a database of 'familiar faces'"
+				},
+				{
+					"question": "Which are the use cases of Amazon Rekognition?",
+					"answer": "1. Labeling, 2. Content moderation, 3. Text detection, 4. Face detection and analysis, 5. Face search and verification, 6. Celebrity recognition, 7.Pathing (for sport game analysis)"
+				},
+				{
+					"question": "What is custom label about in Amazon Rekognition?",
+					"answer": "Find a specific image in images, ex. find your logo in social media posts, identify your products on store shelves"
+				},
+				{
+					"question": "Which are the steps to train a custom label about in Amazon Rekognition?",
+					"answer": "1. Label your training images and upload them to Amazon Rekognition, 2. Amazon Rekognition creates a custom model on your images set, 3. New subsequent images will be categorized the custom way you have defined"
+				},
+				{
+					"question": "What is content moderation in Amazon Rekognition used for?",
+					"answer": "Automatic detection of inappropriate, unwanted or offensive content"
+				},
+				{
+					"question": "Which are the results of content moderation in Amazon Rekognition?",
+					"answer": "Bring down human review to 1-5% of total content volume"
+				},
+				{
+					"question": "Which service can be integrated with Amazon Rekognition for content moderation?",
+					"answer": "Amazon Augmented AI (Amazon A2I) for human review"
+				},
+				{
+					"question": "What are custom moderation adaptors used for?",
+					"answer": "1. Extend Rekognition capabilities by providing your own labeled set of images, 2. Enhance the accuracy of content moderation or create a specific use case of moderation"
 				}
+
 
 			]
 		}

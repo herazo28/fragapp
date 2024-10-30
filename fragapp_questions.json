@@ -209,6 +209,26 @@
 				{
 					"question": "What are custom moderation adaptors used for?",
 					"answer": "1. Extend Rekognition capabilities by providing your own labeled set of images, 2. Enhance the accuracy of content moderation or create a specific use case of moderation"
+				},
+				{
+					"question": "What is Amazon Forecast?",
+					"answer": "Fully managed service that uses ML to deliver highly accurate forecasts"
+				},
+				{
+					"question": "What do you need to perform forecasts in Amazon Forecast?",
+					"answer": "Historical time-series data"
+				},
+				{
+					"question": "What is Amazon Lex used for?",
+					"answer": "It is used for building chatbots quickly for your applications using voice and text"
+				},
+				{
+					"question": "What are some of the possible integrations of Amazon Lex?",
+					"answer": "1. AWS Lambda, 2. Connect, 3. Comprehend, 4. Kendra"
+				},
+				{
+					"question": "What the Amazon Lex bot does?",
+					"answer": "Understand the user intent to invoke the correct lambda function and fulfill the intent. It will ask for slots (input parameters) if required"
 				}
 
 

@@ -229,9 +229,83 @@
 				{
 					"question": "What the Amazon Lex bot does?",
 					"answer": "Understand the user intent to invoke the correct lambda function and fulfill the intent. It will ask for slots (input parameters) if required"
+				},
+				{
+					"question": "What is Amazon Personalize?",
+					"answer": "Fully managed ML service to build apps with real-time personalized recommendation"
+				},
+				{
+					"question": "What are recipes in Amazon Personalize?",
+					"answer": "Algorithms that are prepared for specific use cases, you must provide the training configuration on top of the recipe"
+				},
+				{
+					"question": "What are recipes' training configurations in Amazon Personalize?",
+					"answer": "1. USER_PERSONALIZATION, 2. PERSONALIZED_RANKING, 3. POPULAR_ITEMS, 4. RELATED_ITEMS, 5. PERSONALIZED_ACTION, 6. USER_SEGMENTS"
+				},
+				{
+					"question": "What is USER_PERSONALIZATION training configurations about in Amazon Personalize?",
+					"answer": "Recommend items for users"
+				},
+				{
+					"question": "What is PERSONALIZED_RANKING training configurations about in Amazon Personalize?",
+					"answer": "Ranks items for a user"
+				},
+				{
+					"question": "What is POPULAR_ITEMS training configurations about in Amazon Personalize?",
+					"answer": "Recommend trending or popular items"
+				},
+				{
+					"question": "What is RELATED_ITEMS training configurations about in Amazon Personalize?",
+					"answer": "Recommend similar items"
+				},
+				{
+					"question": "What is PERSONALIZED_ACTION training configurations about in Amazon Personalize?",
+					"answer": "Recommend the next best action"
+				},
+				{
+					"question": "What is USER_SEGMENTS training configurations about in Amazon Personalize?",
+					"answer": "Get the user segment"
+				},
+				{
+					"question": "What is Amazon Textract?",
+					"answer": "Automatically extracts text, handwriting, and data from any scanned documents using AI and ML"
+				},
+				{
+					"question": "Where can Amazon Textract extract data from?",
+					"answer": "It can extrat data from forms and tables"
+				},
+				{
+					"question": "What type of documents can Amazon Textract extract data from?",
+					"answer": "PDFs, images, etc"
+				},
+				{
+					"question": "What is Amazon Kendra?",
+					"answer": "Fully managed document search service powered by Machine Learning"
+				},
+				{
+					"question": "What Amazon Kendra does?",
+					"answer": "It extracts answers from within a document though Natural Language search capabilities"
+				},
+				{
+					"question": "What type of documents can Amazon Kendra searc information from?",
+					"answer": "Text, PDF, HTML, PowerPoint, MS Word, FAQs, etc."
+				},
+				{
+					"question": "What is incremental learning in Amazon Kendra?",
+					"answer": "Learn from user interactions/feedback to promote preferred results"
+				},
+				{
+					"question": "What Amazon Augmented AI provides?",
+					"answer": "Human oversight of Machine Learning predictions in production"
+				},
+				{
+					"question": "What are the predictions of a model according to Amazon Augmented AI?",
+					"answer": "High confidence and low confidence predictions"
+				},
+				{
+					"question": "Where can be the model which Amazon Augmented AI can check?",
+					"answer": "ML model can be built on AWS or elsewhere"
 				}
-
-
 			]
 		}
 	]

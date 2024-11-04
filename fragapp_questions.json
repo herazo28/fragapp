@@ -156,11 +156,11 @@
 				},
 				{
 					"question": "What is Lexicons about in Amazon Polly?",
-					"answer": "Define how to read certain specific piece of text"
+					"answer": "you can modify the pronunciation of particular words, such as company names, acronyms, foreign words and neologisms"
 				},
 				{
 					"question": "What is SSML (Speech Synthesis Markup Language) about in Amazon Polly?",
-					"answer": "Markup for your text to indicate how to pronounce it"
+					"answer": "Tags for phrasing, emphasis, and intonation"
 				},
 				{
 					"question": "What is Voice engine about in Amazon Polly?",
@@ -305,9 +305,84 @@
 				{
 					"question": "Where can be the model which Amazon Augmented AI can check?",
 					"answer": "ML model can be built on AWS or elsewhere"
+				},
+				{
+					"question": "Which are the EC2 instances with GPU?",
+					"answer": "P and G family"
+				},
+				{
+					"question": "What is AWS Trainium?",
+					"answer": "ML chip built to perform Deep Learning on 100B+ parameter models"
+				},
+				{
+					"question": "What is the saving in cost of using AWS Trainium?",
+					"answer": "50% cost reduction when training a model"
+				},
+				{
+					"question": "What is AWS Inferentia?",
+					"answer": "ML chip built to deliver inference at high performance and low cost"
+				},
+				{
+					"question": "What is benefits of using AWS Inferentia?",
+					"answer": "Up to 4x throughput and 70% cost reduction"
+				},
+				{
+					"question": "What is Amazon Lookout?",
+					"answer": "Service to detect and diagnose anomalies"
+				},
+				{
+					"question": "What are the types of unusual variances Amazon Lookout checks?",
+					"answer": "1. Business performance, 2. Ad campaigns, 3. Whatever"
+				},
+				{
+					"question": "Which are the main components on Amazon Lookout?",
+					"answer": "1. Detectors, 2. Datasets, 3. Anomalies"
+				},
+				{
+					"question": "Which are the specialized version for industries of Amazon Lookout?",
+					"answer": "1. For equipment: integrate with equipment sensors for predictive maintenance, 2. For vision: automate quality inspection with computer vision"
+				},
+				{
+					"question": "What is Amazon Fraud Detector?",
+					"answer": "Fully managed ML model customized to your data for fraud detection"
+				},
+				{
+					"question": "How can we feed Amazon Fraud Detector?",
+					"answer": "From S3 or API"
+				},
+				{
+					"question": "What is Amazon Q Business?",
+					"answer": "Fully managed Gen-AI assistant for your employees"
+				},
+				{
+					"question": "What Amazon Q Business can do?",
+					"answer": "based on your company's knowledge and data: 1. Answer questions, provide summaries, generate content, automate tasks; 2. Perform routine activities"
+				},
+				{
+					"question": "What is the foundation service of Amazon Q Business?",
+					"answer": "Amazon BedRock, you cna't choose the the underlying Foundation Model"
+				},
+				{
+					"question": "What is a data connector of Amazon Q Business?",
+					"answer": "Fully managed RAG"
+				},
+				{
+					"question": "How many data sources are supported by Amazon Q Business data connectors?",
+					"answer": "Connects to 40+ popular enterprise data sources"
+				},
+				{
+					"question": "What is a Amazon Q Business plugin?",
+					"answer": "Allows you to interact with 3rd party services like Jira, ServiceNow or custom plugins (APIs)"
+				},
+				{
+					"question": "How is Authentication and Authorization managed in Amazon Q Business?",
+					"answer": "Authentication - Users must be authenticated through IAM Identity Center; Authorization - Users receive responses generated only from the documents they have access to"
+				},
+				{
+					"question": "Which are some of the admin controls of Amazon Q Business?",
+					"answer": "1. Controls and customize responses to your organizational needs; 2 Guardrails; 3. Block specific words or topics; 4. Choose between respond only with internal information vs using external knowledge"
 				}
 			]
 		}
 	]
-	
 }

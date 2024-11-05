@@ -239,7 +239,7 @@
 					"answer": "Algorithms that are prepared for specific use cases, you must provide the training configuration on top of the recipe"
 				},
 				{
-					"question": "What are recipes' training configurations in Amazon Personalize?",
+					"question": "What are recipes'' training configurations in Amazon Personalize?",
 					"answer": "1. USER_PERSONALIZATION, 2. PERSONALIZED_RANKING, 3. POPULAR_ITEMS, 4. RELATED_ITEMS, 5. PERSONALIZED_ACTION, 6. USER_SEGMENTS"
 				},
 				{

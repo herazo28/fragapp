@@ -52,6 +52,22 @@
 				{
 					"question": "Which are the characteristics of velocity data property?",
 					"answer": "1. High velocity requires real-time or near real-time processing capabilities, 2. Rapid ingestion and processing can be critical for certain applications"
+				},
+				{
+					"question": "What variety refers to as a property of data?",
+					"answer": "Refers to the different types, structures and sources of data"
+				},
+				{
+					"question": "Which are the characteristics of variety data property?",
+					"answer": "1. Data can be structured, semistructured and unstructured; 2. Data can come from multiple sources and in various formats"
+				},
+				{
+					"question": "What is a Data warehouse?",
+					"answer": "Centralized repository optimized for analysis where data from different sources is stored in a structured format"
+				},
+				{
+					"question": "Which are the characteristics of a Data warehouse?",
+					"answer": "1. Designed for complex queries and analysis; 2. Data is cleaned, transformed and loaded (ETL process); 3. Typically uses a star or snowflake schema; 4. Optimized for read-heavy operations"
 				}
 			]
 		},
@@ -381,6 +397,14 @@
 				{
 					"question": "Which are some of the admin controls of Amazon Q Business?",
 					"answer": "1. Controls and customize responses to your organizational needs; 2 Guardrails; 3. Block specific words or topics; 4. Choose between respond only with internal information vs using external knowledge"
+				},
+				{
+					"question": "What can you do with Amazon Q Apps?",
+					"answer": "Create Gen AI-powered apps wiothout coding by using natural language"
+				},
+				{
+					"question": "What can you do with Amazon Q Developer?",
+					"answer": "1. Answer questions about AWS documentation and AWS services selection, also about resources in your AWS account; 2. AI code compension to help you to code new application"
 				}
 			]
 		}

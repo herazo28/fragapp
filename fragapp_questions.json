@@ -68,7 +68,316 @@
 				{
 					"question": "Which are the characteristics of a Data warehouse?",
 					"answer": "1. Designed for complex queries and analysis; 2. Data is cleaned, transformed and loaded (ETL process); 3. Typically uses a star or snowflake schema; 4. Optimized for read-heavy operations"
+				},
+				{
+					"question": "What is a Data Lake?",
+					"answer": "A storage repository that holds vast amounts of raw data in its native format, including structured, semistructured and unstructured data"
+				},
+				{
+					"question": "Which are the characteristics of a Data Lake?",
+					"answer": "1. Can store large volumes of raw data without predefined schema; 2. Data is loaded as-is, no need for preprocessing; 3. Supports batch, real-time and stream processing; 4. Can be queried for data transformation or exploration purposes"
+				},
+				{
+					"question": "Which are the differences between a Data warehouse and a Data Lake regards schema?",
+					"answer": "Data warehouse uses the schema on write model where we have a predefined schema before writing data; Data Lake uses the schema on read model where the schema is defined at the time of reading data"
+				},
+				{
+					"question": "Which are the differences between a Data warehouse and a Data Lake regards Data types?",
+					"answer": "Data warehouse has primarily structured data while data lakes can handle both structured and unstructured data"
+				},
+				{
+					"question": "Which are the differences between a Data warehouse and a Data Lake regards Agility?",
+					"answer": "Data warehouse is less agile due to predefined schema while data lake is more agile as it accepts raw data without predefined structure"
+				},
+				{
+					"question": "Which are the differences between a Data warehouse and a Data Lake regards Cost?",
+					"answer": "Data warehouse is more expensive because of optimization for complex queries while data lake is cost-effective but costs can raise when processing large amounts of data"
+				},
+				{
+					"question": "What is a Data LakeHouse?",
+					"answer": "A hybrid data architecture that combines the best features of data lakes and data warehouses, aiming to provide the performance, reliability, and capability of a data warehouse while maintaining the flexibility, scale, and low cost of data lakes"
+				},
+				{
+					"question": "Which are the characteristics of a Data LakeHouse?",
+					"answer": "1. Supports both structured and unstructured data; 2. Allows for schema on write and schema on read; 3. Provides capabilities for both detailed analytics and machine learning tasks; 4. Typically built on top of cloud or distributed architectures; 5. Benefits from technologies like delta-lake"
+				},
+				{
+					"question": "What is a Data mesh about?",
+					"answer": "It is about governance and organization, how you structure, access and ownership of data"
+				},
+				{
+					"question": "What is an ETL Pipeline?",
+					"answer": "Process used to move data from source systems into a data warehouse"
+				},
+				{
+					"question": "Within an ETL Pipeline, what is Extract about?",
+					"answer": "1. Retrieve raw data from source systems; 2. Ensure data integrity during the extraction phase"
+				},
+				{
+					"question": "Within an ETL Pipeline, how can extract be executed?",
+					"answer": "Real-time or in batches, depending on requirements"
+				},
+				{
+					"question": "Within an ETL Pipeline, what is Transform about?",
+					"answer": "Convert the extracted data into a format suitable for the target data warehouse"
+				},
+				{
+					"question": "Within an ETL Pipeline, what operations can be executed in Transform phase?",
+					"answer": "1. Data cleansing; 2. Data enrichment; 3. Format changes; 4. Aggregations or computations; 5. Encoding or decoding data; 6. Handling missing values"
+				},
+				{
+					"question": "Within an ETL Pipeline, what is Load about?",
+					"answer": "Move the transformed data into the target data warehouse or another data repository"
+				},
+				{
+					"question": "Within an ETL Pipeline, how can load be executed?",
+					"answer": "Batches (all at once) or streaming manner (as data becomes available)"
+				},
+				{
+					"question": "Which are some of the file data formats for data engineering?",
+					"answer": "1. CSV (Comma-Separated Value); 2. JSON (JavaScript Object Notation); 3. Avro; 4. Parquet"
+				},
+				{
+					"question": "What is CSV?",
+					"answer": "Text-based format that represents data in a tabular form where each line corresponds to a row and values within a row are separated by commas"
+				},
+				{
+					"question": "When to use CSV?",
+					"answer": "1. For small to medium datasets; 2. Data interchange between systems with different technologies; 3. Human-readable and editable data storage; 4. Importing/Exporting data from databases or spreadsheets"
+				},
+				{
+					"question": "What is JSON?",
+					"answer": "Lightweight, text-based, and human-readable data interchange format that represents structured or semistructured data based on key-value pairs"
+				},
+				{
+					"question": "When to use JSON?",
+					"answer": "1. Data interchange between a web server and a web client; 2. Configurations and settings for software applications; 3. Use cases that need flexible schema or nested data structures"
+				},
+				{
+					"question": "What is Avro?",
+					"answer": "Binary format that stores both the data and its schema, allowing it to be processed later with different systems without needing the original system context"
+				},
+				{
+					"question": "When to use Avro?",
+					"answer": "1. Big data and real-time processing systems; 2. Schema evolution (Changes in data structure) is needed; 3. Efficient serialization for data transport between systems"
+				},
+				{
+					"question": "What is Parquet?",
+					"answer": "Columnar storage format optimized for analytics. Allows for efficient compresion and encoding schemas"
+				},
+				{
+					"question": "When to use Parquet?",
+					"answer": "1. Analyzing large datasets with analytics engines; 2. Use cases where reading specific columns instead of entire records is beneficial; 3. Storing data on distributed systems where I/O operations and storage need optimization"
+				},
+				{
+					"question": "Which are Amazon S3 use cases?",
+					"answer": "1. Backup and storage; 2. Disaster recovery; 3. Archive; 4. Hybrid Cloud Storage; 5. Static website; 6. Application hosting; 7. Media hosting; 8. Data lakes and big data analytics; 9. Software delivery"
+				},
+				{
+					"question": "What is Amazon S3 Versioning?",
+					"answer": "A means of keeping multiple variants of an object in the same bucket"
+				},
+				{
+					"question": "What is Amazon S3 Versioning used for?",
+					"answer": "To preserve, retrieve, and restore every version of every object stored in your buckets"
+				},
+				{
+					"question": "Within Amazon S3, versinoning is enable at which level?",
+					"answer": "Bucket level"
+				},
+				{
+					"question": "What is Amazon S3 replication?",
+					"answer": "Automatic, asynchronous copying of objects across Amazon S3 buckets"
+				},
+				{
+					"question": "What are the prerrequisites for Amazon S3 replication?",
+					"answer": "Versioning must be enable in source and destination buckets"
+				},
+				{
+					"question": "What types of Amazon S3 replication do exist?",
+					"answer": "1. CRR (Cross-Region Replication); 2. SRR (Same-Region Replication)"
+				},
+				{
+					"question": "What is the use case of Amazon S3 CRR?",
+					"answer": "Compliance, lower latency access, replication between accounts"
+				},
+				{
+					"question": "What is the use case of Amazon S3 SRR?",
+					"answer": "Log aggregation, Live replication between production and test accounts"
+				},
+				{
+					"question": "Which are the S3 storage classes?",
+					"answer": "1. Standard - General purpose; 2. Standard - Infrequent access (IA); 3. One zone - Infrequent Access; 4. Glacier Instant Retrieval; 5. Glacier Flexible Retrieval; 6. Glacier Deep Archive; 7. Intelligent Tiering"
+				},
+				{
+					"question": "What is Lifecycle management feature within Amazon S3?",
+					"answer": "Move files between storage classes after N days"
+				},
+				{
+					"question": "What is Amazon EFS?",
+					"answer": "Managed NFS (Network File System) that can be mounted on many EC2"
+				},
+				{
+					"question": "How many AZs are used by Amazon EFS?",
+					"answer": "EFS works in multi AZ"
+				},
+				{
+					"question": "Which are the quality attributes covered by Amazon EFS?",
+					"answer": "1. Highly available; 2. Scalable; 3. Pay per use"
+				},
+				{
+					"question": "Which are the use cases of Amazon EFS?",
+					"answer": "1. Content management; 2. Web serving; 3. Data sharing; 4. Wordpress"
+				},
+				{
+					"question": "How the access is controlled in Amazon EFS?",
+					"answer": "Through security groups"
+				},
+				{
+					"question": "How the access is controlled in Amazon EFS?",
+					"answer": "Through security groups"
+				},
+				{
+					"question": "Which AMIs are compatible with Amazon EFS?",
+					"answer": "Linux-based AMIs, not windows"
+				},
+				{
+					"question": "How we can use encryption at rest in Amazon EFS?",
+					"answer": "Using KMS"
+				},
+				{
+					"question": "Which are the performance modes of Amazon EFS?",
+					"answer": "1. General purpose; 2. Max I/O"
+				},
+				{
+					"question": "What is General purpose performance modes of Amazon EFS used for?",
+					"answer": "latency-sensitive use cases"
+				},
+				{
+					"question": "What is Max I/O performance modes of Amazon EFS used for?",
+					"answer": "Higher latency, throughput, highly parallel"
+				},
+				{
+					"question": "Which are the throughput modes of Amazon EFS?",
+					"answer": "1. Bursting; 2. Provisioned; 3. Elastic"
+				},
+				{
+					"question": "Which are the characteristics of Bursting thoughput mode of Amazon EFS?",
+					"answer": "1 TB = 50 Mb/s + burst of up to 100 Mb/s"
+				},
+				{
+					"question": "Which are the characteristics of Provisioned thoughput mode of Amazon EFS?",
+					"answer": "Set your throughput regardless of storage size"
+				},
+				{
+					"question": "Which are the characteristics of Elastic thoughput mode of Amazon EFS?",
+					"answer": "Automatically scales throughput up or down based on your workloads; Up to 3 Gb/s for reads and 1 Gb/s for writes"
+				},
+				{
+					"question": "Which are the storage classes of Amazon EFS?",
+					"answer": "1. Standard; 2. Infrequent Access; 3. Archive"
+				},
+				{
+					"question": "What is Standard storage class of Amazon EFS used for?",
+					"answer": "Frequently accessed files"
+				},
+				{
+					"question": "What is Infrequent Access storage class of Amazon EFS used for?",
+					"answer": "Cost for retrieve files, lower price to store"
+				},
+				{
+					"question": "What is Archive storage class of Amazon EFS used for?",
+					"answer": "Rarely accessed data (Few times each year), 50% cheaper"
+				},
+				{
+					"question": "Which are the storage types of Amazon EFS based on availability and durability?",
+					"answer": "1. Standard; 2. One zone"
+				},
+				{
+					"question": "How many EC2 instances a single EBS volume can be attached to?",
+					"answer": "An EBS volume can be attached to one instance (except multi attach io1/io2)"
+				},
+				{
+					"question": "How many AZs are used by an EBS volume?",
+					"answer": "Just one, EBS are locked at AZ level"
+				},
+				{
+					"question": "How IO can be increase in GP2 EBS volumes?",
+					"answer": "IO increases if disk size increase"
+				},
+				{
+					"question": "How IO can be increase in GP3 and IO1 EBS volumes?",
+					"answer": "IO increases independently"
+				},
+				{
+					"question": "How an EBS volume can be migrated across AZs?",
+					"answer": "1. Take a snapshot of the volume; 2. Restore the snapshot to another AZ"
+				},
+				{
+					"question": "What do you need to consider when performing a Backup of an EBS volume?",
+					"answer": "Backup use IO and you shouldn't run them while your application is handling a lot of traffic"
+				},
+				{
+					"question": "What happens with root EBS volumes by default if instances get terminated?",
+					"answer": "root EBS volumes get terminated as well"
+				},
+				{
+					"question": "What is an instance store?",
+					"answer": "Provides temporary block-level storage for your EC2 instances"
+				},
+				{
+					"question": "Where is attach the instance store?",
+					"answer": "It is physically attached to the EC2 instance"
+				},
+				{
+					"question": "What is Amazon FSx?",
+					"answer": "3rd party high performance file system on AWS"
+				},
+				{
+					"question": "Which are the types of Amazon FSx?",
+					"answer": "1. FSx for lustre; 2. FSx for Windows File Server; 3. FSx for NetApp ONTAP; 4. FSx for OpenZFS"
+				},
+				{
+					"question": "What is Amazon FSx for Windows?",
+					"answer": "Fully managed Windows file system share drive"
+				},
+				{
+					"question": "What protocols are supported by Amazon FSx for Windows?",
+					"answer": "1. SMB; 2. Windows NFTS"
+				},
+				{
+					"question": "What instances can be used with Amazon FSx for Windows?",
+					"answer": "Linux EC2 instances"
+				},
+				{
+					"question": "What namespaces are supported by Amazon FSx for Windows?",
+					"answer": "Distributed File System (DFS) namespaces"
+				},
+				{
+					"question": "What is the scalability of Amazon FSx for Windows?",
+					"answer": "Up to 10s of GB/s, millions of IOPS, 100PB of data"
+				},
+				{
+					"question": "Which are the storage options of Amazon FSx for Windows?",
+					"answer": "1. SSD; 2. HDD"
+				},
+				{
+					"question": "Which are the use case of SSD storage option of Amazon FSx for Windows?",
+					"answer": "Latency sensitive workloads"
+				},
+				{
+					"question": "Which are the use case of HDD storage option of Amazon FSx for Windows?",
+					"answer": "Broad spectrum of workloads"
+				},
+				{
+					"question": "can Amazon FSx for Windows be accessed from on-premise?",
+					"answer": "Yes, through VPN or direct connect"
+				},
+				{
+					"question": "how the backup of Amazon FSx for Windows works?",
+					"answer": "It is backed up daily in S3"
 				}
+
 			]
 		},
 		{

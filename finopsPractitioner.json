@@ -1,0 +1,20 @@
+{
+	"id": "FIN_PRA",
+	"certName": "FINOPS Practitioner",
+	"categories": [
+		{
+			"name": "Section 2 - Cloud Computing Foundamentals",
+			"questions": [
+				{
+					"question": "What is Cloud Computing?",
+					"answer": "Model for enabling ubiquitous, convenient, on-demand network access to a shared pool of configurable computing resources that can be rapidly provisioned and released with minimal management effort or service provider intervention"
+				},
+				{
+					"question": "What is Cloud Computing is composed of?",
+					"answer": "5 essential characteristics, 3 service models, 4 deployment models"
+				}
+
+			]
+		}
+	]
+}

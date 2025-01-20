@@ -12,6 +12,82 @@
 				{
 					"question": "What is Cloud Computing is composed of?",
 					"answer": "5 essential characteristics, 3 service models, 4 deployment models"
+				},
+				{
+					"question": "Which are the 5 essential Cloud Computing characteristics?",
+					"answer": "1. On-demand self-service; 2. Broad network access; 3. Resource pooling; 4. Rapid elasticity; 5. Measured service"
+				},
+				{
+					"question": "What is On-demand self-service cloud computing characteristic about?",
+					"answer": "A consumer can unilaterally provision computing capabilities as needed without requiring human intervention with each service provider"
+				},
+				{
+					"question": "What is Broad network access cloud computing characteristic about?",
+					"answer": "Capabilities are available over the network and accessed through standard mechanism that promote use on any device"
+				},
+				{
+					"question": "What is Resource pooling cloud computing characteristic about?",
+					"answer": "Provider's computing resources are pooled to serve multiple consumers using a multi-tenant model"
+				},
+				{
+					"question": "What is Rapid elasticity cloud computing characteristic about?",
+					"answer": "Capabilities can be elastically provisioned and released, in some cases, automatically, to scale rapidly outward and inward"
+				},
+				{
+					"question": "What is Measured service cloud computing characteristic about?",
+					"answer": "Resource usage can be monitored, controlled, and reported, providing transparency for both the provider and consumer of the utilized service"
+				},
+				{
+					"question": "Which are the 3 Cloud Service models?",
+					"answer": "1. Software as a Service (SaaS); 2. Platform as a Service (PaaS); 3. Infrastructure as a Service (IaaS)"
+				},
+				{
+					"question": "What is Software as a service service model about?",
+					"answer": "Provide applications to users"
+				},
+				{
+					"question": "What is Platform as a service service model about?",
+					"answer": "Provide specialized software components and programming tools for developers"
+				},
+				{
+					"question": "What is Infrastructure as a service service model about?",
+					"answer": "Provide computing infrastructure resource as a service to administrators"
+				},
+				{
+					"question": "Which are the 4 Cloud Deployment models?",
+					"answer": "1. Private; 2. Hybrid; 3. Community; 4. Public"
+				},
+				{
+					"question": "What is private cloud deployment model about?",
+					"answer": "You run everything in your own data center"
+				},
+				{
+					"question": "What is hybrid cloud deployment model about?",
+					"answer": "Combine two or more of the deployment models"
+				},
+				{
+					"question": "What is community cloud deployment model about?",
+					"answer": "Shared deployment between organizations"
+				},
+				{
+					"question": "What is public cloud deployment model about?",
+					"answer": "You run all your services in public clouds"
+				},
+				{
+					"question": "Which are the effects of moving from on-premises to cloud computing?",
+					"answer": "1. Localization of cost; 2. Material spend; 3. Variable price"
+				},
+				{
+					"question": "What is localization of cost regards the effect of moving from on-premise to cloud?",
+					"answer": "Cost are not managed by a central entity but by developer's hands"
+				},
+				{
+					"question": "What is material spend regards the effect of moving from on-premise to cloud?",
+					"answer": "Not possibility to predict the exact cost of the infrastructure"
+				},
+				{
+					"question": "What is variable cost regards the effect of moving from on-premise to cloud?",
+					"answer": "Spend what you use"
 				}
 
 			]

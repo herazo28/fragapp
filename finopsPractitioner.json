@@ -89,7 +89,147 @@
 					"question": "What is variable cost regards the effect of moving from on-premise to cloud?",
 					"answer": "Spend what you use"
 				}
-
+			]
+		},
+		{
+			"name": "Section 3 - FinOps fundamentals",
+			"questions": [
+				{
+					"question": "What is FinOps?",
+					"answer": "The practice of bringing financial accountability to the variable spend model of cloud, enabling teams to make business tradeoffs between spend, cost and quality"
+				},
+				{
+					"question": "What is FinOps about?",
+					"answer": "1. An effective approach for teams to manage their cloud costs; 2. Ownership driven and supported by a central group; 3. Work towards financial and operational control; 4. A way to prioritize ongoing optimization of your cloud costs"
+				},
+				{
+					"question": "Why use a FinOps approach?",
+					"answer": "1. Cloud spending increases year over year; 2. Managing cloud spending can be overwhelming without a culture shift; 3. Set of best practices; 4. Provide component oversight of cloud spending"
+				},
+				{
+					"question": "Which are the principles of FinOps?",
+					"answer": "1. Collaboration; 2. Business value; 3. Ownership; 4. Timely reports; 5. Centralized team; 6. Variable cost model"
+				},
+				{
+					"question": "What is Collaboration principle about?",
+					"answer": "FinOps is not about one person at a company but a constant collaboration between different people within the organization"
+				},
+				{
+					"question": "What is Business value principle about?",
+					"answer": "FinOps needs to be implemented to provide value for the organization. Provide for cost optimization and a solid ROI"
+				},
+				{
+					"question": "What is Ownership principle about?",
+					"answer": "Stakeholders need to be able to control and take ownership of their expenses"
+				},
+				{
+					"question": "What is Timely reports principle about?",
+					"answer": "Reports should be routine and concise to provide insight into cloud spending and forecasting"
+				},
+				{
+					"question": "What is Centralized team principle about?",
+					"answer": "A FinOps Team should be centralized to provide for an enterprise focused approach removing redundancy but provide for collaboration"
+				},
+				{
+					"question": "What is Variable Cost Model principle about?",
+					"answer": "Cloud spending is variable and therefore the FinOps team must have processes, practices and tools in place to manage and monitor spending to meet business goals"
+				},
+				{
+					"question": "Which are the phases of FinOps lifecycle?",
+					"answer": "1. Inform; 2. Optimize; 3. Operate"
+				},
+				{
+					"question": "Which are the phases of FinOps lifecycle?",
+					"answer": "1. Inform; 2. Optimize; 3. Operate"
+				},
+				{
+					"question": "What is Inform phase about?",
+					"answer": "Understanding your organizations resources comsumption through context, data, budgets and forecasting"
+				},
+				{
+					"question": "Which are the main tasks/goals of Inform phase?",
+					"answer": "1. Create tags/labels; 2. Setup account hierarchy; 3. Goal is for near real-time visibility"
+				},
+				{
+					"question": "Which are the principles supported by the Inform phase?",
+					"answer": "Set goals"
+				},
+				{
+					"question": "What is Optimize phase about?",
+					"answer": "Setting your goals and targets by determining your cloud cost through strategy, tracking, cost breakdown and cost growth boundary"
+				},
+				{
+					"question": "Which are the main tasks/goals of Optimize phase?",
+					"answer": "1. Set the goals and determine impact; 2. Achieve the goals"
+				},
+				{
+					"question": "Which are the principles supported by the Inform phase?",
+					"answer": "1. Principle 1: Teams need to collaborate; 2. Principle 2: Business value of cloud drives decisions; 3. Principle 6: Take advantages of the variable cost model of the cloud"
+				},
+				{
+					"question": "What is Operate phase about?",
+					"answer": "Aligning organization teams to business goals through drive and action"
+				},
+				{
+					"question": "Which are the main tasks/goals of Optimize phase?",
+					"answer": "1. Target, define, and document optimization opportunities; 2. Automation"
+				},
+				{
+					"question": "Which are the principles supported by the Inform phase?",
+					"answer": "1. Principle 2: Business value of cloud drives decision; 2. Principle 5: A centralized teams drives FinOps; 3. Principle 6: Take advantages of the variable cost model of the cloud"
+				},
+				{
+					"question": "What is CAPEX?",
+					"answer": "Capex (Capital Expenditures) are investments made by an organization for long-term benefits in the future"
+				},
+				{
+					"question": "What change does it means to migrate to the cloud regards cost?",
+					"answer": "Shift from CAPEX to OPEX financing and payment models"
+				},
+				{
+					"question": "What is ROI?",
+					"answer": "Return on Investment (ROI) is the proportionate increase in the value of an investment over a period"
+				},
+				{
+					"question": "How is profit calculated?",
+					"answer": "Profit is equal to the income minus the costs"
+				},
+				{
+					"question": "How is ROI calculated?",
+					"answer": "ROI is equal to Profit divided by costs"
+				},
+				{
+					"question": "What is TCO?",
+					"answer": "Total Cost of Ownership (TCO) is the total cost associated with data center deployment"
+				},
+				{
+					"question": "What is the goal regards TCO and ROI?",
+					"answer": "Obtaining a solid ROI while minimizing TCO"
+				},
+				{
+					"question": "What is chargeback?",
+					"answer": "Policy of allocating resource usage costs to actual business units"
+				},
+				{
+					"question": "What is the characteristics of chargeback?",
+					"answer": "1. Accounting model; 2. zeroed out; see costs"
+				},
+				{
+					"question": "What is the accounting model characteristic of chargeback?",
+					"answer": "Individual cost centers are charged for their IT service based on use and activity"
+				},
+				{
+					"question": "What is zeroed out characteristic of chargeback?",
+					"answer": "All IT costs are assigned to users/business units"
+				},
+				{
+					"question": "What is see costs characteristic of chargeback?",
+					"answer": "Allow users/business units to see their costs and understand how those costs are determined"
+				},
+				{
+					"question": "Which are some of the optimization challenges with DevOps?",
+					"answer": "1. DevOps consumes resources faster and unpredictably; 2. Cost is not always a concern with DevOps engineers; 3. Hard coded resources (IaC); 4. App owner resistance; 5. Traditional FinOps allocation doesn't work; 6. Multiple container/apps"
+				}
 			]
 		}
 	]

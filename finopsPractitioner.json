@@ -66,6 +66,47 @@
 				{
 					"question": "What is the role of Procurement Persona?",
 					"answer": "Responsible for procuring cloud services, optimizing vendor relationships, and ensuring cost-effective and compliant vendor engagements, collaborating with FinOps Practitioners to ensure rates contribute to the successful management of cloud finances"
+				},
+				{
+					"question": "What are Allied Personas?",
+					"answer": "Roles that are not directly involved in the practice of FinOps but has intersecting disciplines"
+				},
+				{
+					"question": "Which are the Allied Personas?",
+					"answer": "1. ITSM/ITIL; 2. ITAM; 3. Sustainability; 4. Security; 5. ITFM"
+				},
+				{
+					"question": "What ITSM/ITIL stands for?",
+					"answer": "IT Service Management"
+				},
+				{
+					"question": "What ITAM stands for?",
+					"answer": "IT Asset Management"
+				},
+				{
+					"question": "What ITFM stands for?",
+					"answer": "IT Financial Management"
+				}
+			]
+		},
+		{
+			"name": "Phases",
+			"questions": [
+				{
+					"question": "Which are the FinOps phases?",
+					"answer": "1. Inform; 2. Optimize; 3. Operate"
+				},
+				{
+					"question": "What is Inform phase about?",
+					"answer": "Visibility and allocation; Identifying data sources for cloud cost, usage and efficiency data"
+				},
+				{
+					"question": "What is Optimize phase about?",
+					"answer": "Rates and usage; Identifying opportunities to improve cloud efficiency using the data and capabilities"
+				},
+				{
+					"question": "What is Operate phase about?",
+					"answer": "Continuous improvement and usage; Establishing cloud governance policies, compliance monitoring, and empowering individuals through the development of training programs, team guidelines, and automation policies that are aligned with organizational objectives"
 				}
 			]
 		},

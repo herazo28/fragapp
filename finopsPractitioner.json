@@ -3,6 +3,73 @@
 	"certName": "FINOPS Practitioner",
 	"categories": [
 		{
+			"name": "Overview",
+			"questions": [
+				{
+					"question": "what is FinOps?",
+					"answer": "FinOps is an operational framework and cultural practice which maximizes the business value of cloud, enables timely data-driven decision making, and creates financial accountability through collaboration between engineering, finance, and business teams"
+				}
+			]
+		},
+		{
+			"name": "Principles",
+			"questions": [
+				{
+					"question": "Which are the 3 first principles of FinOps?",
+					"answer": "1. Teams need to collaborate; 2. Decisions are driven by business value of cloud; 3. Everyone takes ownership of their cloud usage"
+				},
+				{
+					"question": "Which are the 3 first principles of FinOps?",
+					"answer": "4. FinOps data should be accessible and timely; 5. A centralized team drives FinOps; 6. Take advantage of the variable cost model of the cloud"
+				}
+			]
+		},
+		{
+			"name": "Personas",
+			"questions": [
+				{
+					"question": "What Personas represent?",
+					"answer": "Broad stakeholder groups that must collaborate, not individual people"
+				},
+				{
+					"question": "How Personas looks in a complex organization?",
+					"answer": "A Persona may represent many people in various related roles"
+				},
+				{
+					"question": "How Personas looks in a small organization?",
+					"answer": "A single person may perfom the duties of multiple Personas"
+				},
+				{
+					"question": "Which are the core Personas?",
+					"answer": "1. FinOps practitioner; 2. Leadership; 3. Product; 4. Engineering; 5. Finance; 6. Procurement"
+				},
+				{
+					"question": "What is the role of FinOps practitioner Persona?",
+					"answer": "Bridge business, engineering, and finance teams by applying a working knowledge of the FinOps framework in order to establish a FinOps culture and enable evidence-based decisions to maximize the business value of cloud"
+				},
+				{
+					"question": "What is the role of Leadership Persona?",
+					"answer": "Empowers organizational alignment to prioritize FinOps initiatives, enables action to overcome FinOps challenges, and connects cloud technology decisions with business objectives"
+				},
+				{
+					"question": "What is the role of Product Persona?",
+					"answer": "Drive business value by defining requirements and prioritizing initiatives that align FinOps to business objectives, engaging stakeholders, and articulating the value-proposition of cloud technology decisiones"
+				},
+				{
+					"question": "What is the role of Engineering Persona?",
+					"answer": "Responsible for designing, managing and optimizing cloud infrastructure to achieve cost-effectiveness, performance, reliability while ensuring the security and compliance of cloud environments"
+				},
+				{
+					"question": "What is the role of Finance Persona?",
+					"answer": "Provides financial expertise and works closely with FinOps Practitioners to reconcile cloud provider invoices with cloud billing data to accurately forecast, budget and chargeback cloud costs"
+				},
+				{
+					"question": "What is the role of Procurement Persona?",
+					"answer": "Responsible for procuring cloud services, optimizing vendor relationships, and ensuring cost-effective and compliant vendor engagements, collaborating with FinOps Practitioners to ensure rates contribute to the successful management of cloud finances"
+				}
+			]
+		},
+		{
 			"name": "Maturity model",
 			"questions": [
 				{
@@ -52,19 +119,6 @@
 				{
 					"question": "Which are the second 2 characteristics of Run stage of the maturity model?",
 					"answer": "3. Very high goals/KPIs set on the measurement of success; 4. Automation is the preferred approach"
-				}
-			]
-		},
-		{
-			"name": "Principles",
-			"questions": [
-				{
-					"question": "Which are the 3 first principles of FinOps?",
-					"answer": "1. Teams need to collaborate; 2. Decisions are driven by business value of cloud; 3. Everyone takes ownership of their cloud usage"
-				},
-				{
-					"question": "Which are the 3 first principles of FinOps?",
-					"answer": "4. FinOps data should be accessible and timely; 5. A centralized team drives FinOps; 6. Take advantage of the variable cost model of the cloud"
 				}
 			]
 		}

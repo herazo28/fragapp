@@ -162,6 +162,94 @@
 					"answer": "3. Very high goals/KPIs set on the measurement of success; 4. Automation is the preferred approach"
 				}
 			]
+		},
+		{
+			"name": "Understanding Cloud Usage & Cost Domain",
+			"questions": [
+				{
+					"question": "What is the target of Understanding Cloud usage and cost domain?",
+					"answer": "Better understanding of an organization's use of the cloud"
+				},
+				{
+					"question": "What capabilities are associated with Optimize Cloud usage and cost domain?",
+					"answer": "1. Data ingestion; 2. Allocation; 3. Reporting and analytics; 4. Anomaly management"
+				},
+				{
+					"question": "What is enabled by this domain?",
+					"answer": "It enables an organization to understand what cloud services it's using, what is driving spend, and who is responsible for that spend"
+				}
+			]
+		},
+		{
+			"name": "Optimize Cloud Usage & Cost Domain",
+			"questions": [
+				{
+					"question": "What is the target of Optimize Cloud usage and cost domain?",
+					"answer": "Cloud efficiency by designing and building systems effectively, reducing waste and unnecessary usage over time, and optimizing rates paid for needed resources"
+				},
+				{
+					"question": "What capabilities are associated with Optimize Cloud usage and cost domain?",
+					"answer": "1. Architecting for cloud; 2. Rate optimization; 3. Workload optimization; 4. Cloud sustainability; 5. Licensing and SaaS"
+				},
+				{
+					"question": "What is ensured by this domain?",
+					"answer": "It ensures organizations use resources only when and where they provide the most value to the organization"
+				}
+			]
+		},
+		{
+			"name": "Shared costs",
+			"questions": [
+				{
+					"question": "Which are the three common methods for splitting up shared costs",
+					"answer": "1. Even split; 2. Fixed proportional; 3. Variable proportional"
+				},
+				{
+					"question": "What is even split about",
+					"answer": "Split total amount evenly across targets"
+				},
+				{
+					"question": "What is fixed proportional about",
+					"answer": "Based on relative percentage of costs, usage, or some other metric which is infrequently updated"
+				},
+				{
+					"question": "What is variable proportional about",
+					"answer": "Based on relative percentage of costs, usage, or some other metric which is routinely used for determining the split of spend"
+				}
+			]
+		},
+		{
+			"name": "FinOps adoption",
+			"questions": [
+				{
+					"question": "How FinOps adoption begins?",
+					"answer": "1. Leadership mandate; 2. Grassroots adoption; 3. Individual initiative"
+				},
+				{
+					"question": "What are the typical stages of FinOps adoption?",
+					"answer": "1. Research; 2. Propose; 3. Prepare; 4. Launch"
+				},
+				{
+					"question": "What is Research stage of FinOps adoption about?",
+					"answer": "It is about collecting the inputs for your FinOps adoption proposal"
+				},
+				{
+					"question": "What is Propose stage of FinOps adoption about?",
+					"answer": "It is about bring other members of your organization on board with implementing FinOps practice"
+				},
+				{
+					"question": "How do we define the opportunity in the Propose stage of FinOps adoption?",
+					"answer": "You have to paint a picture of: 1. the current state; 2. a roadmap of FinOps activities; and 3. an appealing future with FinOps"
+				},
+				{
+					"question": "What is Prepare stage of FinOps adoption about?",
+					"answer": "It is about preparing to execute against those approved plans"
+				},
+				{
+					"question": "What is Launch stage of FinOps adoption about?",
+					"answer": "It is about implementing the designed processes, tools and policies"
+				}
+			]
 		}
 	]
 }

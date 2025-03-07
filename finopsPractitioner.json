@@ -205,15 +205,15 @@
 					"answer": "1. Even split; 2. Fixed proportional; 3. Variable proportional"
 				},
 				{
-					"question": "What is even split about",
+					"question": "What is even split shared cost about",
 					"answer": "Split total amount evenly across targets"
 				},
 				{
-					"question": "What is fixed proportional about",
+					"question": "What is fixed proportional shared cost about",
 					"answer": "Based on relative percentage of costs, usage, or some other metric which is infrequently updated"
 				},
 				{
-					"question": "What is variable proportional about",
+					"question": "What is variable proportional shared cost about",
 					"answer": "Based on relative percentage of costs, usage, or some other metric which is routinely used for determining the split of spend"
 				}
 			]
@@ -248,6 +248,15 @@
 				{
 					"question": "What is Launch stage of FinOps adoption about?",
 					"answer": "It is about implementing the designed processes, tools and policies"
+				}
+			]
+		},
+		{
+			"name": "Domains",
+			"questions": [
+				{
+					"question": "Which are the FinOps domains?",
+					"answer": "1. Understanding cloud usage and costs; 2. Quantify business value; 3. Optimize cloud usage and costs; 4. Manage the FinOps practice"
 				}
 			]
 		}

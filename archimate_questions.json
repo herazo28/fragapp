@@ -1,0 +1,15 @@
+{
+	"id": "Archimate-P01",
+	"certName": "Archimate Part 1",
+	"categories": [
+		{
+			"name": "Strategy layer",
+			"questions": [
+				{
+					"question": "What elements are part of the Strategy layer?",
+					"answer": "1. Course of action; 2. Resource; 3. Capability; 4. Value Stream"
+				}
+			]
+		}
+	]
+}

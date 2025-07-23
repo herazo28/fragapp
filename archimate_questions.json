@@ -8,6 +8,22 @@
 				{
 					"question": "What elements are part of the Strategy layer?",
 					"answer": "1. Course of action; 2. Resource; 3. Capability; 4. Value Stream"
+				},
+				{
+					"question": "What are the structure elements of the Strategy layer?",
+					"answer": "1. Resource"
+				},
+				{
+					"question": "What are the behavior elements of the Strategy layer?",
+					"answer": "1. Course of action; 2. Value Stream; 3. Capability"
+				},
+				{
+					"question": "What are the strategy behavior elements of the Strategy layer?",
+					"answer": "1. Value Stream; 2. Capability"
+				},
+				{
+					"question": "What is a Resource in the Strategy layer?",
+					"answer": "An asset owned or controlled by an individual or an organization"
 				}
 			]
 		}

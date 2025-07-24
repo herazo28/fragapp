@@ -24,7 +24,72 @@
 				{
 					"question": "What is a Resource in the Strategy layer?",
 					"answer": "An asset owned or controlled by an individual or an organization"
+				},
+				{
+					"question": "What is the categories of a Resource in the Strategy layer?",
+					"answer": "1. Tangible assets; 2. Intangible assets; 3. Human assets"
+				},
+				{
+					"question": "What are some examples of tangible asset category for a Resource in the Strategy layer?",
+					"answer": "Financial assets (money); Physical assets (Plant, equipment)"
+				},
+				{
+					"question": "What are some examples of intangible asset category for a Resource in the Strategy layer?",
+					"answer": "Technology assets (patents, copyrights); Reputation assets (brand, relationships); Culture assets"
+				},
+				{
+					"question": "What is the preferred way to name a Resource in the Strategy layer?",
+					"answer": "Noun"
+				},
+				{
+					"question": "What a Capability in the Strategy layer represents?",
+					"answer": "Represents an ability that an active structure element, such as an organization, person, or system, possesses"
+				},
+				{
+					"question": "What is a Capability in the Strategy layer?",
+					"answer": "what the enterprise can (is able to) do (now or in the future)"
+				},
+				{
+					"question": "How is realized a Capability in the Strategy layer?",
+					"answer": "Through a combination of organization, people, processes, information, and technology"
+				},
+				{
+					"question": "What is the preferred way to name a Capability in the Strategy layer?",
+					"answer": "it should be expressed as a compound noun or gerund (-ing form of verb); e.g., “Risk Management”, “Market Development”"
+				},
+				{
+					"question": "What a Value Stream in the Strategy layer represents?",
+					"answer": "Represents a sequence of activities that creates an overall result for a customer, stakeholder or end user"
+				},
+				{
+					"question": "How should be defined a Value Stream in the Strategy layer?",
+					"answer": "Always from the perspective of the stakeholder (customer, end user or recipient of the product/service)"
+				},
+				{
+					"question": "What a Value Stream in the Strategy layer is composed of?",
+					"answer": "Value-adding activities known as value (stream) stages"
+				},
+				{
+					"question": "How are Value Streams in the Strategy layer realized?",
+					"answer": "Realized by business processes"
+				},
+				{
+					"question": "What is the preferred way to name a Value Stream in the Strategy layer?",
+					"answer": "using a verb-noun construct in the active tense; e.g., “Acquire Insurance Product”."
+				},
+				{
+					"question": "What a Course of Action in the Strategy layer represents?",
+					"answer": "Represents an approach or plan for configuring some capabilities and resources of the enterprise, undertaken to achieve some goal"
+				},
+				{
+					"question": "What are the categories of Course of Action in the Strategy layer?",
+					"answer": "1. Strategies; 2. Tatics"
+				},
+				{
+					"question": "What are the differences between the categories of Course of Action in the Strategy layer?",
+					"answer": "Strategies tend to be long-term and fairly broad in scope while tatics tend to be shorter-term and narrower in scope"
 				}
+
 			]
 		}
 	]

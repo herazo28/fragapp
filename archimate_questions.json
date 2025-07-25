@@ -91,6 +91,87 @@
 				}
 
 			]
+		},
+		{
+			"name": "Business layer",
+			"questions": [
+				{
+					"question": "What elements are part of the Business Layer Internal Active Structure?",
+					"answer": "1. Business Role; 2. Business Actor; 3. Business Collaboration"
+				},
+				{
+					"question": "What is a Business Actor?",
+					"answer": "Represents a business entity capable of performing behavior"
+				},
+				{
+					"question": "What are some examples of a Business Actor?",
+					"answer": "Person, Business Unit, Organizations"
+				},
+				{
+					"question": "What is the preferred way to name a Business Actor?",
+					"answer": "Noun"
+				},
+				{
+					"question": "What a Business Role represents?",
+					"answer": "Represents the responsibility for performing specific behavior, to which an actor can be assigned, or the part an actor plays in particular action or event"
+				},
+				{
+					"question": "What happens when a Business Actor is assigned to a Business Role?",
+					"answer": "The Business Actor becomes responsible for performing the behavior, either by doing it himself or delegating it to somebody else"
+				},
+				{
+					"question": "What is the relation between Business Role and Business Processes or Business Functions?",
+					"answer": "A Business Role may be assigned to one or more Business Processes or Business Functions"
+				},
+				{
+					"question": "What is the relation between Business Role and Business Actor?",
+					"answer": "A Business Actor may be assigned to one or more Business Roles"
+				},
+				{
+					"question": "What a Business Collaboration represents?",
+					"answer": "Represents an aggregated of two or more business internal active structure elements that work together to perform collective behavior"
+				},
+				{
+					"question": "What is a Business Collaboration?",
+					"answer": "A Business Collaboration is a (possibly temporary) collection of business roles, actors, or other collaborations within an organization which perform collaborative behavior (interactions)"
+				},
+				{
+					"question": "What is the preferred way to name a Business Collaboration?",
+					"answer": "Noun but it can be unname also"
+				},
+				{
+					"question": "What a Business Interface represents?",
+					"answer": "Represents a point of access where business service are made available to the environment"
+				},
+				{
+					"question": "What a Business Interface does?",
+					"answer": "It exposes the functionality of a Business Service to other Business Roles or Business Actors"
+				},
+				{
+					"question": "What is the relation between Business Interface and Business Service?",
+					"answer": "A Business Interface may be assigned to one or more Business Services"
+				},
+				{
+					"question": "What are some examples of Business Interface?",
+					"answer": "Telephone, Internet, Local office"
+				},
+				{
+					"question": "What is the preferred way to name a Business Interface?",
+					"answer": "Noun"
+				},
+				{
+					"question": "What are the Business Internal Behavior Elements?",
+					"answer": "1. Business Process; 2. Business Function; 3. Business Interaction"
+				},
+				{
+					"question": "What a Business Process represents?",
+					"answer": "Represents a sequence of business behaviors that achieves a specific result such as a defined set of products or business services"
+				},
+				{
+					"question": "What a Business Process describes?",
+					"answer": "Describes the internal behavior performed by a business role that is required to produce a set of products and services"
+				}
+			]
 		}
 	]
 }

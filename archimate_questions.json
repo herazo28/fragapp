@@ -170,6 +170,18 @@
 				{
 					"question": "What a Business Process describes?",
 					"answer": "Describes the internal behavior performed by a business role that is required to produce a set of products and services"
+				},
+				{
+					"question": "What is the difference between Business Process and Business Function?",
+					"answer": "Business Process describes some kind of 'flow' of activities, whereas Business Function group activities according to required skills, knowledge, resources, etc."
+				},
+				{
+					"question": "How do we know the Business Process is being performed manually or automatically?",
+					"answer": "If a Business Role is assigned to the Business Process it is being done automatically; if it is realized by an Application Process is automatically"
+				},
+				{
+					"question": "What is the preferred way to name a Business Process?",
+					"answer": "Noun or verb-noun combination and may include the word 'process'"
 				}
 			]
 		}

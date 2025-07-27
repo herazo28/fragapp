@@ -88,8 +88,23 @@
 				{
 					"question": "What are the differences between the categories of Course of Action in the Strategy layer?",
 					"answer": "Strategies tend to be long-term and fairly broad in scope while tatics tend to be shorter-term and narrower in scope"
+				},
+				{
+					"question": "What are the possible relations between a Resource and a Strategy Behavior Element?",
+					"answer": "A Resource is assigned to a Strategy Behavior Element. If un resource is assigned to the capability, it means that the resource is required for tha capability to work and exist"
+				},
+				{
+					"question": "What are the possible relations between a Strategy Behavior Element and a Course of Action?",
+					"answer": "A Strategy Behavior Element can either serve or realize a Course of Action"
+				},
+				{
+					"question": "What are the possible relations between a Course of Action and a Course of Action?",
+					"answer": "triggers/flows to/serve"
+				},
+				{
+					"question": "What are the possible relations between a Strategy Behavior Element and a Strategy Behavior Element?",
+					"answer": "triggers/flows to/serve"
 				}
-
 			]
 		},
 		{
@@ -182,6 +197,10 @@
 				{
 					"question": "What is the preferred way to name a Business Process?",
 					"answer": "Noun or verb-noun combination and may include the word 'process'"
+				},
+				{
+					"question": "What a Business Function represents?",
+					"answer": "Represents a collection of business behavior based on a chosen set of criteria such as required business resources and/or competencies, and is managed or performed as a whole"
 				}
 			]
 		}

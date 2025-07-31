@@ -201,6 +201,50 @@
 				{
 					"question": "What a Business Function represents?",
 					"answer": "Represents a collection of business behavior based on a chosen set of criteria such as required business resources and/or competencies, and is managed or performed as a whole"
+				},
+				{
+					"question": "What is the relationship between a Business Function and a Capability?",
+					"answer": "Business Function can realize capabilities"
+				},
+				{
+					"question": "What is the relationship between a Business Function and other Business Behavior elements?",
+					"answer": "Business Function can trigger o be triggered by a Business Behavior element"
+				},
+				{
+					"question": "What is the relationship between a Business Function and a Business Service?",
+					"answer": "Business Function may realize one or more Business Services"
+				},
+				{
+					"question": "What elements may serve a Business Function?",
+					"answer": "Business Function may be served by Business, Application, or Technology services"
+				},
+				{
+					"question": "What elements may be assigned to Business Function?",
+					"answer": "A Business Role may be assigned to a Business Function"
+				},
+				{
+					"question": "What is the recommendation about Business Function name?",
+					"answer": "It should clearly define what it does, well-defined behavior"
+				},
+				{
+					"question": "What a Business Interaction represents?",
+					"answer": "Represents a unir of collective business behavior performed by (a collaboration of) two or more business actors, business roles, or business collaborations"
+				},
+				{
+					"question": "What is the relationship between a Business Interaction and other Business Behavior elements?",
+					"answer": "Business Interaction can trigger o be triggered by a Business Behavior element"
+				},
+				{
+					"question": "What is the relationship between a Business Interaction and a Business Service?",
+					"answer": "A Business interaction may realize one or more business services"
+				},
+				{
+					"question": "What is the recommendation about Business Interaction name?",
+					"answer": "A verb in the simple past tense"
+				},
+				{
+					"question": "What a Business Event represents?",
+					"answer": "Represents a business-related state change"
 				}
 			]
 		}

@@ -3,6 +3,27 @@
 	"certName": "Archimate Part 1",
 	"categories": [
 		{
+			"name": "Motivation layer",
+			"questions": [
+				{
+					"question": "What relations are possible between Motivation elements?",
+					"answer": "Influence, each motivation element can influence other motivation elements"
+				},
+				{
+					"question": "What relations are possible between Driver and Assessment?",
+					"answer": "Association, a Driver may be associated with an Assessment and an Assessment may be associated with a Driver"
+				},
+				{
+					"question": "What relations are possible between Outcome and Goal?",
+					"answer": "Outcome realizes Goal"
+				},
+				{
+					"question": "What elements may be associated with a Driver?",
+					"answer": "Driver may be associated with Assessment and Goal"
+				}
+			]
+		},
+		{
 			"name": "Strategy layer",
 			"questions": [
 				{
@@ -245,6 +266,26 @@
 				{
 					"question": "What a Business Event represents?",
 					"answer": "Represents a business-related state change"
+				},
+				{
+					"question": "What is the preferred way to name a Business Event?",
+					"answer": "Verb in the perfect tense"
+				},
+				{
+					"question": "What a Business Event triggers/flows or is triggered by?",
+					"answer": "Business Service, Business Internal Behavior Element, and other Business Events"
+				},
+				{
+					"question": "What a Business Service represents?",
+					"answer": "Represents explicitly defined behavior that a Business Role, Business Actor, or Business Collaboration exposes to its environment"
+				},
+				{
+					"question": "How can a Business Service be accessed?",
+					"answer": "Business Services are accessed through Business Interface"
+				},
+				{
+					"question": "What may be the relation between a Business Service and a Business Interface?",
+					"answer": "Business Interface is assigned to a Business Service"
 				}
 			]
 		}

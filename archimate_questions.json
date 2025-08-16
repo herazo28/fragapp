@@ -4,7 +4,11 @@
 	"categories": [
 		{
 			"name": "Motivation layer",
-			"questions": [
+			"questions": [				
+				{
+					"question": "What a Stakeholder in the Motivation layer represents?",
+					"answer": "The role of an individual, team or organization that represents their interests in the effects of the architecture"
+				},
 				{
 					"question": "What relations are possible between Motivation elements?",
 					"answer": "Influence, each motivation element can influence other motivation elements"
@@ -286,6 +290,164 @@
 				{
 					"question": "What may be the relation between a Business Service and a Business Interface?",
 					"answer": "Business Interface is assigned to a Business Service"
+				},
+				{
+					"question": "What a Business Object represents?",
+					"answer": "A concept used within a particular business domain"
+				},
+				{
+					"question": "What a Business Object usually models?",
+					"answer": "It models an object type of which multiple instances may exist in operations"
+				},
+				{
+					"question": "What Business Elements may access Business Objects?",
+					"answer": "1. Business Process; 2. Business Function; 3. Business Interaction; 4. Business Event; 5. Business Service"
+				},
+				{
+					"question": "What a Contrat represents?",
+					"answer": "Formal or informal specification of an agreement between a provider and a consumer that specifies the rights and obligations associated with a product and establishes functional and non-functional parameters for interaction"
+				},
+				{
+					"question": "What relationship does has a Contrat with a Business Object?",
+					"answer": "A Contrat is an specialization of a Business Object"
+				},
+				{
+					"question": "What relationship does has a Contrat with a Business Object?",
+					"answer": "A Contrat is an specialization of a Business Object"
+				},
+				{
+					"question": "What relationship may has a Contrat with a Business Product?",
+					"answer": "A Contrat may have an aggregation relationship with a Product"
+				},
+				{
+					"question": "What relationship may has a Contrat with a Business Product?",
+					"answer": "A Contrat may have an aggregation relationship with a Product"
+				},
+				{
+					"question": "What is the preferred way to name a Contrat?",
+					"answer": "Noun"
+				},
+				{
+					"question": "What a Representations represents?",
+					"answer": "A perceptible form of the information carried by a Business Object"
+				},
+				{
+					"question": "What are the composite elements of Business Layer?",
+					"answer": "1. Product"
+				},
+				{
+					"question": "What a Business Product represents?",
+					"answer": "Coherent collection of services and/or passive structure elements, accompanied by a contract, which is offered as a whole to (internal or external) customers"
+				}
+
+			]
+		},
+		{
+			"name": "Implementation adn Strategy layer",
+			"questions": [
+				{
+					"question": "What does the Implementation and Strategy layer?",
+					"answer": "It expresses the required changes in enterprise"
+				},
+				{
+					"question": "What are the elements of the Implementation and Strategy layer?",
+					"answer": "1. Plateau; 2. Gap; 3. Deliverable; 4. Work package; 5. Implementation event"
+				},
+				{
+					"question": "What are the composite elements of the Implementation and Strategy layer?",
+					"answer": "1. Plateau"
+				},
+				{
+					"question": "What are the Passive structure elements of the Implementation and Strategy layer?",
+					"answer": "1. Gap; 2. Deliverable"
+				},
+				{
+					"question": "What are the Internal Behavior elements of the Implementation and Strategy layer?",
+					"answer": "1. Work Package"
+				},
+				{
+					"question": "What are the Event of the Implementation and Strategy layer?",
+					"answer": "1. Implementatio Event"
+				},
+				{
+					"question": "What is a Work package of the Implementation and Strategy layer?",
+					"answer": "Is a unique one-off process that produces defined results"
+				},
+				{
+					"question": "What does a Work package represents in the Implementation and Strategy layer?",
+					"answer": "A series of actions identified and designed to achieve specific results within specified time and resource constraints"
+				},
+				{
+					"question": "What are the characteristics of Work package in the Implementation and Strategy layer?",
+					"answer": "1. Has a start and end date; 2. Produces defined results (Goals, Outcomes, Deliverables)"
+				},
+				{
+					"question": "What is Work package in the Implementation and Strategy layer used for?",
+					"answer": "Work or task performed within projects. programs, project portfolio and agile"
+				},
+				{
+					"question": "What is Implement Event in the Implementation and Strategy layer?",
+					"answer": "Changes an implementation-related state"
+				},
+				{
+					"question": "What does a Implement Event represents in the Implementation and Strategy layer?",
+					"answer": "Instantaneous state change related to implementation or migration"
+				},
+				{
+					"question": "What a Implement Event represents in the Implementation and Strategy layer may access to?",
+					"answer": "Deliverables"
+				},
+				{
+					"question": "What a Implement Event represents in the Implementation and Strategy layer may trigger or be triggered by?",
+					"answer": "1. Work Packages; 2. Plateaus"
+				},
+				{
+					"question": "What a Implement Event represents in the Implementation and Strategy layer may be associated with?",
+					"answer": "Any core element"
+				},
+				{
+					"question": "What is the recommendation regards the name of Implement Event in the Implementation and Strategy layer?",
+					"answer": "Should be formulated as a verb in perfect tense"
+				},
+				{
+					"question": "What is a Deliverable in the Implementation and Strategy layer?",
+					"answer": "Is a result produced by a Work Package"
+				},
+				{
+					"question": "What does a Deliverable in the Implementation and Strategy layer represents?",
+					"answer": "A precisely defined result of a Work Package"
+				},
+				{
+					"question": "What is a characteristic of Deliverable in the Implementation and Strategy layer?",
+					"answer": "Often contractually specified and in turn formally reviewed, agreed and signed off by the stakeholder"
+				},
+				{
+					"question": "What a Deliverable in the Implementation and Strategy layer may be?",
+					"answer": "May be a tangible document, an intagible organizational change or a implementation of an Enterprise Architecture"
+				},
+				{
+					"question": "What a Gap in the Implementation and Strategy layer defines?",
+					"answer": "Defines the differences between two Plateaus"
+				},
+				{
+					"question": "What does Gap in the Implementation and Strategy layer represents?",
+					"answer": "A statement of difference between two Plateaus as well as between the Baseline and Target architecture"
+				},
+				{
+					"question": "What elements are associated with Gaps of Implementation and Strategy layer?",
+					"answer": "two Plateaus, two consecutive transitions"
+				},
+				{
+					"question": "What is a Plateau in Implementation and Strategy layer?",
+					"answer": "Transition periods between baseline and target architecture"
+				},
+				{
+					"question": "What does a Plateau in Implementation and Strategy layer represents?",
+					"answer": "It represents a relatively stable state of the Enterprise Architecture that exists during a limited period of time"
+				},
+				{
+					"question": "What does a Plateau in Implementation and Strategy layer allows?",
+					"answer": "Group Work Packagess and projects into a Transition Architecture of managed portfolios and programs"
 				}
 			]
 		}
